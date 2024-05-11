@@ -1,0 +1,29 @@
+.content-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ul-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  background-color: #171717;
+  border: 1px solid rgb(56, 56, 56);
+  border-radius: 10rem;
+  width: fit-content;
+  margin-top: 2rem;
+  padding: 0 4rem;
+}
+
+.logo-header {
+  width: 8rem;
+  filter: invert(100%) grayscale(100%);
+}
+
+.li-header {
+  font-size: 1.2rem;
+  list-style: none;
+  color: rgb(228, 228, 228);
+}
