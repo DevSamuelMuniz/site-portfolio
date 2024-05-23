@@ -19,7 +19,6 @@ function aboutmeComponent() {
         <div className="intro-aboutme">
           <img src="" alt="" />
           <p>
-            Analista e Desenvolvedor de Sistemas desenvolvedor Fullstack.
             <br />
             <br />
             React | Angular | React Native | Python | Node.js | Flutter | SQL |

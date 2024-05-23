@@ -1,0 +1,31 @@
+.content-service {
+  background-image: url("../../assets/img/bg-azul.png");
+  background-size: cover;
+
+  margin-top: 21rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 5rem;
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 10px;
+  flex: 1 0 30%;
+  max-width: 30%;
+  box-sizing: border-box;
+}
+
+.services-h1 {
+  padding: 2rem;
+}
+
+.textH1-service {
+  font-size: 2.6rem;
+  color: white;
+}
