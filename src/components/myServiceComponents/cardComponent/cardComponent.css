@@ -5,7 +5,9 @@
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(226, 226, 226, 0.664);
+
+  margin-bottom: 4rem;
 }
 
 .title-card {
