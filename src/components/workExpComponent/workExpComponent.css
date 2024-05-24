@@ -1,0 +1,39 @@
+.main-exp {
+  margin: 3rem;
+}
+
+.title-work-xp {
+  text-align: center;
+  margin: 4rem 0;
+  font-size: 2.6rem;
+  color: #062e64;
+}
+
+.container-exp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img-exp {
+  width: 5rem;
+}
+
+.ctn-exp {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.card-exp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: end;
+
+  width: 35rem;
+}
+
+.img-exp{
+    width: 3rem;
+}
