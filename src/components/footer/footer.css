@@ -6,10 +6,9 @@
   justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
-  padding: 4rem;
+  padding: 3rem;
 
   border-radius: 4rem 4rem 0 0;
-
 }
 
 .content-trabalhe {
@@ -36,7 +35,7 @@
 
 .linha {
   width: 100%;
-  border-color: #062e64;
+  border-color: #062f646b;
   margin: 2rem;
 }
 
@@ -49,24 +48,52 @@
 }
 
 .logo-footer {
-    width: 10rem;
-    background-color: white;
-
+  width: 10rem;
+  background-color: white;
 }
 
-.redes-footer{
-
+.redes-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
 }
 
-.logos-footer1{
-    width: 3rem;
+.logos-footer1 {
+  width: 3rem;
 }
-.logos-footer2{
-    width: 3rem;
-    background-color: white;
-    padding: .6rem 0;
-    border-radius: .4rem;
+.logos-footer2 {
+  width: 3rem;
+  background-color: white;
+  padding: 0.6rem 0;
+  border-radius: 0.4rem;
 }
-.logos-footer3{
-    width: 3rem;
+.logos-footer3 {
+  width: 3rem;
+}
+
+.navegacao-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.link-footer {
+  color: white;
+  text-decoration: none;
+}
+.ul-footer{
+    list-style: none;
+    text-align: end;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.copy-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .6rem;
 }

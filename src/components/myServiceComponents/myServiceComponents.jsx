@@ -21,15 +21,15 @@ import Nove from "../../assets/carrossel/nutri.png";
 
 function MyServiceComponents() {
   const cardData = [
-    { title: "FisioterapiaRM", image: Um },
-    { title: "Cartão do Empresário", image: Tres },
-    { title: "Indiana Jones School", image: Dois },
-    { title: "Finamo", image: Cinco },
-    { title: "Fluff", image: Quatro },
-    { title: "Portfólios", image: Seis },
-    { title: "Geolytic", image: Sete },
-    { title: "Linktree", image: Oito },
-    { title: "Nutrilife", image: Nove },
+    { title: "FisioterapiaRM", image: Um, link: 'https://fisioterapiarm.com/' },
+    { title: "Cartão do Empresário", image: Tres, link: 'https://test.d2psx7is1von2g.amplifyapp.com/' },
+    { title: "Indiana Jones School", image: Dois, link: 'https://github.com/DevSamuelMuniz/IndianaJonesSchool' },
+    { title: "Finamo", image: Cinco, link: 'https://finamo.vercel.app/' },
+    { title: "Fluff", image: Quatro, link: 'https://github.com/DevSamuelMuniz/Fluff' },
+    { title: "Portfólios", image: Seis, link: 'https://github.com/DevSamuelMuniz/anaportfolio' },
+    { title: "Geolytic", image: Sete, link: '' },
+    { title: "Linktree", image: Oito, link: 'https://github.com/DevSamuelMuniz/ProjetoRocketseat' },
+    { title: "Nutrilife", image: Nove, link: 'https://github.com/DevSamuelMuniz/front-mobile' },
   ];
 
   const chunkSize = 3;
@@ -48,7 +48,7 @@ function MyServiceComponents() {
         {slides.map((slide, index) => (
           <div key={index} className="carousel-slide">
             {slide.map((data, idx) => (
-              <CardComponent key={idx} title={data.title} image={data.image} />
+              <CardComponent key={idx} title={data.title} image={data.image} link={data.link} />
             ))}
           </div>
         ))}

@@ -14,7 +14,7 @@ function CardComponent({ title, image, link }) {
         <hr className="linha"/>
         <img src={image} alt={title} className="image-card" />
       </div>
-      <a href={link} className="link-card">
+      <a target="_blank" href={link} className="link-card" rel="noreferrer">
         <div className="seta-container">
           <img src={Seta} alt="Seta" className="seta" />
         </div>
