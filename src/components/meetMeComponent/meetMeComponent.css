@@ -7,7 +7,7 @@
 
 .content-meetme {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
 }
 
@@ -71,14 +71,19 @@
   background-color: #062e64;
   border: 2px solid #062e64;
   border-radius: 1rem;
-  transition: 0.3s ease-in-out;
+  transition: 0.1s ease-in-out;
   height: 4rem;
   width: 56vw;
   cursor: pointer;
+
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn-meetme:hover {
   background-color: white;
   color: #062e64;
-  scale: 1.1;
+  scale: 1.02;
 }

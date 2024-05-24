@@ -1,27 +1,34 @@
 import React from "react";
+import { Link } from "react-scroll";
 
-//css
-import "./headerComponent.css"
+// CSS
+import "./headerComponent.css";
 
-//img
-import Logo from "../../assets/img/logo.png"
+// Imagem
+import Logo from "../../assets/img/logo.png";
 
-function headerComponent(){
-    return(
-        <main className="content-header">
-            <ul className="ul-header">
-                <a className="link-header"><li className="li-header">Início</li></a>
-                <a className="link-header"><li className="li-header">Sobre</li></a>
-                <a className="link-header"><li className="li-header">Serviços</li></a>
-
-                <img className="logo-header" src={Logo} alt="Logo Sam-mu" />
-
-                <a className="link-header"><li className="li-header">Resumo</li></a>
-                <a className="link-header"><li className="li-header">Projetos</li></a>
-                <a className="link-header"><li className="li-header">Contatos</li></a>
-            </ul>
-        </main>
-    );
+function HeaderComponent() {
+  return (
+    <header className="content-header">
+      <ul className="ul-header">
+        <li className="li-header">
+          <Link to="section1" smooth={true} duration={500} className="link-header">Início</Link>
+        </li>
+        <li className="li-header">
+          <Link to="section2" smooth={true} duration={500} className="link-header">Projetos</Link>
+        </li>
+        <li className="li-header">
+          <img className="logo-header" src={Logo} alt="Logo Sam-mu" />
+        </li>
+        <li className="li-header">
+          <Link to="section3" smooth={true} duration={500} className="link-header">Experiências</Link>
+        </li>
+        <li className="li-header">
+          <Link to="section4" smooth={true} duration={500} className="link-header">Contatos</Link>
+        </li>
+      </ul>
+    </header>
+  );
 }
 
-export default headerComponent;
+export default HeaderComponent;

@@ -1,6 +1,6 @@
 import React from "react";
 
-//components
+// Components
 import HeaderComponent from "../../components/header/headerComponent";
 import AboutmeComponent from "../../components/aboutmeComponent/aboutmeComponent";
 import MyServiceComponents from "../../components/myServiceComponents/myServiceComponents";
@@ -11,10 +11,18 @@ function homePage() {
   return (
     <main>
       <HeaderComponent />
-      <AboutmeComponent />
-      <MyServiceComponents />
-      <WorkExpComponent />
-      <MeetMeComponent />
+      <section id="section1">
+        <AboutmeComponent />
+      </section>
+      <section id="section2">
+        <MyServiceComponents />
+      </section>
+      <section id="section3">
+        <WorkExpComponent />
+      </section>
+      <section id="section4">
+        <MeetMeComponent />
+      </section>
     </main>
   );
 }

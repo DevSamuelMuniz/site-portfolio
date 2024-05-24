@@ -55,7 +55,14 @@ function meetMeComponent() {
         </div>
       </div>
       <div className="btn">
-        <button className="btn-meetme">Trabalhe comigo!</button>
+        <a
+          href="https://wa.me/5581984174521?text=Ol%C3%A1,%20gostaria%20de%20apresentar%20minha%20ideia%20para%20trabalharmos%20juntos!"
+          target="_blank"
+          className="btn-meetme"
+          rel="noreferrer"
+        >
+          Trabalhe comigo!
+        </a>
       </div>
     </main>
   );
