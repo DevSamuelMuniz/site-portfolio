@@ -19,26 +19,43 @@ function meetMeComponent() {
         </div>
 
         <div className="redes">
-          <a className="redes" target="_blank" href="https://www.linkedin.com/in/samuel-muniz-4b5a3126a/" rel="noreferrer">
+          <a
+            className="redes"
+            target="_blank"
+            href="https://www.linkedin.com/in/samuel-muniz-4b5a3126a/"
+            rel="noreferrer"
+          >
             <div className="redes-meetme">
               <p className="nome-meetme">Linkedin</p>
               <img className="logo-meetme" src={Linkedin} alt="" />
             </div>
           </a>
-          <a className="redes" target="_blank" href="https://github.com/DevSamuelMuniz" rel="noreferrer">
+          <a
+            className="redes"
+            target="_blank"
+            href="https://github.com/DevSamuelMuniz"
+            rel="noreferrer"
+          >
             <div className="redes-meetme">
               <p className="nome-meetme">Github</p>
               <img className="logo-meetme" src={Github} alt="" />
             </div>
           </a>
-          <a className="redes" target="_blank" href="https://www.instagram.com/samuel_mzz?igsh=c2JwdGw2ZnByZDI1&utm_source=qr" rel="noreferrer">
+          <a
+            className="redes"
+            target="_blank"
+            href="https://www.instagram.com/samuel_mzz?igsh=c2JwdGw2ZnByZDI1&utm_source=qr"
+            rel="noreferrer"
+          >
             <div className="redes-meetme">
               <p className="nome-meetme">Instagram</p>
               <img className="logo-meetme" src={Instagram} alt="" />
             </div>
           </a>
-          <button className="btn-meetme">Trabalhe comigo!</button>
         </div>
+      </div>
+      <div className="btn">
+        <button className="btn-meetme">Trabalhe comigo!</button>
       </div>
     </main>
   );
