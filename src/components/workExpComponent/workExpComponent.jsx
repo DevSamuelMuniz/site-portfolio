@@ -33,7 +33,7 @@ function workExpComponent() {
             <div>
               <h2 className="title-exp">Software Developer</h2>
               <p className="empresa-exp">Porto Digital - Residência</p>
-              <p className="data-ex">mar de 2023 - o momento • 1ano 3 meses</p>
+              <p className="data-ex">mar de 2023 - o momento • 1 ano 3 meses</p>
             </div>
           </div>
 
