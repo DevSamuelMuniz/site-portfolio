@@ -7,7 +7,7 @@
 
 .content-meetme {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center; 
   align-items: center;
 }
 
@@ -32,10 +32,14 @@
 
 .me-meetme {
   width: 20rem;
+  border-right: 2px solid #062e64;
+  padding-right: 10rem;
 }
 
 .redes {
   width: 20rem;
+  padding-left: 5rem;
+
   display: flex;
   justify-content: space-between;
   flex-direction: column;
