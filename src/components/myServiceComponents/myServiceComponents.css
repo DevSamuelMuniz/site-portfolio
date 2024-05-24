@@ -1,6 +1,7 @@
 .content-service {
-  background-image: url("../../assets/img/bg-azul.png");
+  background-image: url("../../assets/img/bg.gif");
   background-size: cover;
+  background-repeat: no-repeat;
 
   margin-top: 21rem;
   margin-bottom: 3rem;

@@ -1,13 +1,17 @@
 .card {
-  position: relative; /* Torna a posição dos elementos filhos relativa ao .card */
-  background: rgba(255, 255, 255, 0.2);
+  position: relative;
+  background: rgba(119, 119, 119, 0.2);
   border-radius: 3rem;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
   border: 1px solid rgba(226, 226, 226, 0.664);
-
   margin-bottom: 4rem;
+  transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(0.96);
 }
 
 .title-card {
@@ -18,21 +22,23 @@
   font-weight: 300;
 }
 
+.linha {
+  border-color: rgb(36, 36, 36);
+}
+
 .image-card {
   height: 24rem;
   border-radius: 3rem;
   margin-top: 6rem;
-
-  -webkit-box-shadow: 0px -38px 3px -10px rgba(241, 241, 241, 0.253);
-  -moz-box-shadow: 0px -38px 3px -10px rgba(255, 255, 255, 0.356);
-  box-shadow: 0px -38px 3px -10px rgba(58, 58, 58, 0.356);
+  -webkit-box-shadow: 0px -38px 3px -10px rgba(119, 119, 119, 0.253);
+  -moz-box-shadow: 0px -38px 3px -10px rgba(112, 112, 112, 0.356);
+  box-shadow: 0px -38px 3px -10px rgba(82, 82, 82, 0.356);
 }
 
 .link-card {
   position: absolute;
   bottom: 0;
   right: 0;
-
   cursor: pointer;
 }
 
@@ -46,4 +52,9 @@
   justify-content: center;
   align-items: center;
   margin: -2rem 1rem 1rem -2rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover .seta-container {
+  transform: scale(1.1);
 }

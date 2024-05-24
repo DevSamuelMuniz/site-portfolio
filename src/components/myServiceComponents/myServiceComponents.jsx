@@ -11,9 +11,9 @@ import { Carousel } from "react-responsive-carousel";
 // Import images
 import Um from "../../assets/carrossel/fisioterapiaRM.png";
 import Dois from "../../assets/carrossel/IndianaJones.jpg";
-import Tres from "../../assets/carrossel/finamo.jpg";
+import Cinco from "../../assets/carrossel/finamo.jpg";
 import Quatro from "../../assets/carrossel/fluff.jpg";
-import Cinco from "../../assets/carrossel/knowl.png";
+import Tres from "../../assets/carrossel/cartao.png";
 import Seis from "../../assets/carrossel/portAna.png";
 import Sete from "../../assets/carrossel/Geolytic.jpg";
 import Oito from "../../assets/carrossel/Rocketseat.png";
@@ -22,10 +22,10 @@ import Nove from "../../assets/carrossel/nutri.png";
 function MyServiceComponents() {
   const cardData = [
     { title: "FisioterapiaRM", image: Um },
+    { title: "Cartão do Empresário", image: Tres },
     { title: "Indiana Jones School", image: Dois },
-    { title: "Finamo", image: Tres },
+    { title: "Finamo", image: Cinco },
     { title: "Fluff", image: Quatro },
-    { title: "Knowl", image: Cinco },
     { title: "Portfólios", image: Seis },
     { title: "Geolytic", image: Sete },
     { title: "Linktree", image: Oito },
@@ -44,7 +44,7 @@ function MyServiceComponents() {
         <h1 className="textH1-service">Meus Serviços</h1>
       </div>
 
-      <Carousel>
+      <Carousel autoPlay infiniteLoop interval={3000} showThumbs={false}>
         {slides.map((slide, index) => (
           <div key={index} className="carousel-slide">
             {slide.map((data, idx) => (

@@ -11,7 +11,7 @@ function CardComponent({ title, image, link }) {
     <main className="card">
       <div className="card-content">
         <h1 className="title-card">{title}</h1>
-        <hr />
+        <hr className="linha"/>
         <img src={image} alt={title} className="image-card" />
       </div>
       <a href={link} className="link-card">
