@@ -6,6 +6,7 @@ import AboutmeComponent from "../../components/aboutmeComponent/aboutmeComponent
 import MyServiceComponents from "../../components/myServiceComponents/myServiceComponents";
 import WorkExpComponent from "../../components/workExpComponent/workExpComponent";
 import MeetMeComponent from "../../components/meetMeComponent/meetMeComponent";
+import Footer from "../../components/footer/footer";
 
 function homePage() {
   return (
@@ -22,6 +23,9 @@ function homePage() {
       </section>
       <section id="section4">
         <MeetMeComponent />
+      </section>
+      <section id="section5">
+        <Footer />
       </section>
     </main>
   );
