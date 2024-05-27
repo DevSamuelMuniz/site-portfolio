@@ -20,7 +20,7 @@ function workExpComponent() {
       <div className="container-exp">
         <div className="ctn-exp">
           <div className="card-exp">
-            <img className="img-exp" src={Senac} alt="Logo senac pe" />
+            <img className="img-exp" src={Senac} alt="Logo Senac PE" />
             <div>
               <h2 className="title-exp">Frontend Developer</h2>
               <p className="empresa-exp">Senac Pernambuco</p>
@@ -29,7 +29,7 @@ function workExpComponent() {
           </div>
 
           <div className="card-exp">
-            <img className="img-exp" src={Porto} alt="Logo porto digital" />
+            <img className="img-exp" src={Porto} alt="Logo Porto Digital" />
             <div>
               <h2 className="title-exp">Software Developer</h2>
               <p className="empresa-exp">Porto Digital - Residência</p>
@@ -60,7 +60,7 @@ function workExpComponent() {
             <img
               className="img-exp"
               src={FerreiraCosta}
-              alt="Logo derreita costa"
+              alt="Logo Ferreira Costa"
             />
             <div>
               <h2 className="title-exp">Backend System Development</h2>
